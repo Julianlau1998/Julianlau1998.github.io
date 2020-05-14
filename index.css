@@ -6,7 +6,6 @@ body{
 .header{
 	height: 14.3vw;
 	background-color: #C6ECFF;
-	border: 1px solid #C6ECFF;
 	box-shadow: 3px 3px 3px #424242;
 	z-index: 1;
 	position: absolute;
@@ -359,4 +358,5 @@ body{
   .fafa-bars{
   	opacity: 0;
   }
+
 }
