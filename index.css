@@ -1,14 +1,18 @@
 body{
 	background-color: #FFFFF0;
 	margin: 0;
+	z-index: 1;
 }
-
 .header{
 	height: 14.3vw;
 	background-color: #C6ECFF;
-	border: 1px solid # +8E8E8;
+	border: 1px solid #C6ECFF;
 	box-shadow: 3px 3px 3px #424242;
 	z-index: 1;
+	position: absolute;
+	top: 0;
+	width: 98.2vw;
+	height: 14.3vw;
 }
 
 .topnav{
@@ -24,7 +28,7 @@ body{
   display: block;
   color: #777777;
   text-align: center;
-  padding: 14px 26px;
+  padding: 1vw 2vw;
   text-decoration: none;
   z-index: 1;
   color: black
@@ -56,7 +60,7 @@ body{
 .gradient{
 	margin-top: 0.5vw;
 	height: 35vw;
-	top: 14.5vw;
+	top: 18vw;
 	padding-top: 2vw;
 }
 
@@ -70,6 +74,7 @@ body{
 	width: 45vw;
 	margin-left: 5vw;
 	border-radius: 20px;
+	margin-top: 1vw;
 }
 
 .pic3{
@@ -80,18 +85,45 @@ body{
 	border-radius: 50px;
 }
 
-.category1{
+.image1{
 	width: 40vw;
 	margin-left: 5vw;
 	border-radius: 20px;
-	margin-top: 4vw;
+	margin-top: 0vw;
 }
 
-.category2{
+.image2{
 	width: 40vw;
 	margin-left: 50vw;
 	border-radius: 20px;
 	margin-top: 3vw;
+}
+
+.image3{
+	width: 40vw;
+	margin-left: 5vw;
+	border-radius: 20px;
+	margin-top: 3vw;
+}
+
+.image4{
+	width: 40vw;
+	margin-left: 50vw;
+	border-radius: 20px;
+	margin-top: 3vw;
+}
+.image5{
+	width: 40vw;
+	margin-left: 5vw;
+	border-radius: 20px;
+	margin-top: 3vw;
+}
+
+.category3{
+	width: 27vw;
+	margin-left: 13vw;
+	border-radius: 20px;
+	margin-top: 4vw;
 }
 
 .makro{
@@ -156,6 +188,66 @@ body{
 	position: absolute;
 	top:28vw;
 	left: 11.5vw;
+}
+
+.macroHeader{
+	text-align: center;
+	font-size: 6.5vw;
+	line-height: 1.5;
+	color: black;
+	font-family: Arial;
+	position: absolute;
+	top:20vw;
+	left: 60vw;
+}
+
+.macroSubHeader{
+	text-align: center;
+	color: black;
+	font-family: arial;
+	width: 30vw;
+	position: absolute;
+	top: 33vw;
+	left: 54vw;
+}
+
+.cityHeader{
+	text-align: center;
+	font-size: 8vw;
+	line-height: 0.85;
+	color: #8CC3FF;
+	font-family: Arial;
+	position: absolute;
+	top: 10.5vw;
+	left: 8vw;
+}
+
+.citySubHeader{
+	text-align: center;
+	color: white;
+	font-family: arial;
+	width: 30vw;
+	position: absolute;
+	top: 33vw;
+	left: 6vw;
+}
+
+.imageDiv{
+	margin-left: -5vw;
+	z-index: 0;
+}
+
+.imageDivImg{
+	margin-top: 5vw;
+	width: 103.5vw;
+}
+
+.imageDivImg2{
+	margin-top: 18vw;
+	margin-left: 35.75vw;
+	height: 30vw;
+	width: 53.5vw;
+	border-radius: 1.5vw;
 }
 
 .bilderButton{
@@ -267,3 +359,4 @@ body{
   .fafa-bars{
   	opacity: 0;
   }
+}

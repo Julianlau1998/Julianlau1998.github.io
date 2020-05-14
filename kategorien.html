@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<div class="header" id="headerDiv">
-		<div class="topnav" align = "center" id = "topnav">
+	<div class="topnav" align = "center" id = "topnav">
 		<img src= "jlp6.png" class="logo" id="logo">
 		<img src="jlpCut.png" class="logoCut" id="logoCut">
 		<a href=".html">&Uumlber Mich</a>
@@ -21,15 +21,19 @@
     </div>
 	</div>
 
-	<img class = "category1" id="gradient" src="Makro.jpg"> 
+	<a href="makro.html">
+		<img class = "image1" id="gradient" src="Makro.jpg"> 
+	</a>	
 	<h2 class="makro">Makro</h2>
-	<img class = "category2" id="gradient" src="stadt.jpg">
+	<a href="stadt.html">
+		<img class = "image2" id="gradient" src="Stadt.jpg">
+	</a>
 	<h2 class="stadt">Stadt</h2>
-	<img class = "category1" id="gradient" src="Abstrakt.jpg">
+	<img class = "image3" id="gradient" src="Abstrakt.jpg">
 	<h2 class="abstrakt">Abstrakt</h2>
-	<img class = "category2" id="gradient" src="Sterne.jpg">
+	<img class = "image4" id="gradient" src="Sterne.jpg">
 	<h2 class="astro">Astro</h2>
-	<img class = "category1" id="gradient" src="landschaft.jpg">
+	<img class = "image5" id="gradient" src="landschaft.jpg">
 	<h2 class="landschaft">Landschaft</h2>
 
 	</br></br></br></br></br>
@@ -43,9 +47,17 @@
 
 </body>
 <script>
+	document.getElementById("headerDiv").style.top = 0;
+	document.getElementById("headerDiv").style.position = 'absolute'
+  	document.getElementById("headerDiv").style.width = '98.2vw'
+  	document.getElementById("headerDiv").style.height = '14.3vw'
+  	document.getElementById("logo").style.opacity = 1;
+  	document.getElementById("logoCut").style.opacity = 0
+  	document.getElementById("gradient").style.marginTop = '18vw'
+
 	window.onscroll = function() {
 
-	  if (window.pageYOffset > 100) {
+	  if (window.pageYOffset > 99) {
 	  	document.getElementById("headerDiv").style.top = 0;
 	  	document.getElementById("headerDiv").style.position = 'fixed'
 	  	document.getElementById("headerDiv").style.width = '100vw'
@@ -56,7 +68,7 @@
 	  	//document.getElementById
 	  } 
 
-	  else if(window.pageYOffset <100) {
+	  else if(window.pageYOffset <101) {
 	  	document.getElementById("headerDiv").style.top = 0;
 		document.getElementById("headerDiv").style.position = 'absolute'
 	  	document.getElementById("headerDiv").style.width = '98.2vw'
