@@ -98,6 +98,13 @@ body{
 	margin-top: 3vw;
 }
 
+.pixels-photo{
+	width: 40vw;
+	margin-left: 50vw;
+	border-radius: 20px;
+	margin-top: 3vw;
+}
+
 .image3{
 	width: 40vw;
 	margin-left: 5vw;
