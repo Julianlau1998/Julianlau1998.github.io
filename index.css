@@ -297,7 +297,7 @@ body{
 	text-decoration: none;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -310,7 +310,7 @@ body{
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .topnav.responsive {
     position: relative;
   }
@@ -333,8 +333,23 @@ body{
   }
 
   .logo{
-  	left: 40vw;
+	  left: 40vw;
+	  content:url("jlpCut.png");
+	  position: absolute;
+	  top: 0.5vw;
+	  left: 4vw;
+	  width: 40vw;
+	  opacity: 0;
   }
+  #logo{
+	left: 40vw;
+	content:url("jlpCut.png");
+	position: absolute;
+	top: 0.5vw;
+	left: 4vw;
+	width: 40vw;
+	opacity: 0;
+}
 
   .subHeader{
   	font-size: 8vw;
