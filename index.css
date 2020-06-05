@@ -99,7 +99,7 @@ a.aRight{
 
 .app1{
   position: absolute;
-  top: 32vw;
+  top: 30vw;
   left: 20vw;
   width: 15vw;
   border-radius: 12px;
@@ -107,7 +107,7 @@ a.aRight{
 }
 .app2{
   position: absolute;
-  top: 32vw;
+  top: 30vw;
   left: 42.5vw;
   width: 15vw;
   border-radius: 12px;
@@ -115,7 +115,7 @@ a.aRight{
 }
 .app3{
   position: absolute;
-  top: 32vw;
+  top: 30vw;
   left: 65vw;
   width: 15vw;
   border-radius: 12px;
