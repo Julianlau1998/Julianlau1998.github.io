@@ -190,6 +190,20 @@ a.aRight{
    transform: translateY(-2.05vw) translateX(0.0vw) rotate(-45deg);
 }
 
+.bottomnav {
+  z-index: 100;
+  position: absolute;
+  width: 98.5vw;
+  height: 3vw;
+  top: 70vw;
+  overflow: hidden;
+  background-color: #C6ECFF;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: absolute;
+  color:  black;
+}
+
 .topnav .icon {
   display: none;
 }
