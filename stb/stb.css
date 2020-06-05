@@ -258,6 +258,9 @@ a.aRight{
     font-size: 3vw;
   }
 
+  .bottomnav{
+    top: 400vw;
+  }
 
   .screenshot1{
     left: 35vw;
@@ -285,9 +288,9 @@ a.aRight{
 
   .context1{
     left: 25vw;
-    top: 25vw;
+    top: 23vw;
     width:50vw;
-    height: 30.5vw;
+    height: 32.5vw;
     font-size: 3vw;
     padding-top: 3.5vw; 
   }

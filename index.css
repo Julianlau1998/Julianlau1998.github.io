@@ -225,14 +225,12 @@ a.aRight{
 
   .headerImage{
     margin-top: 2vw;
-    margin-left: 41vw;
+    margin-left: 42.5vw;
     width:15vw;
   }
 
   .bottomnav{
-    position: absolute;
-    bottom:0;
-    opacity: 0;
+	top: 275vw;
   }
 
   .concept{

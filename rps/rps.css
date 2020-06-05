@@ -197,6 +197,10 @@ a.aRight{
     font-size: 3vw;
   }
 
+  .bottomnav{
+    top: 200vw;
+  }
+
   .screenshot1{
     left: 35vw;
     width: 30vw;
