@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> RPS</title>
+	<link rel="stylesheet" type="text/css" href="rps.css">
+</head>
+
+  <body>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<div class = "headDiv" id = "headDiv">
+		<img src="icon1.png" class="headerImage"><br>
+		<a href="../about.html" class="aRight">About</a>
+		<a href="../stb/stb.html">Apps</a>
+		<a href="../index.html">Home</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i></a>
+	</div>
+
+    <img src="../rps/rps_screenshots/rps_start.jpg" class="screenshot1">
+    <img src="../rps/rps_screenshots/rps_draw.jpg" class="screenshot2">
+
+    <div class="context1">
+	    RockPaperScissors ist eine kleine Schere Stein Papier App. </br>
+	    	Dabei wird nach jedem Zug die Statistik aller gemachter Züge angezeigt.
+	    	
+	</div>
+
+	<button type="button" class="nextApp"  onclick="window.location.href='../stb/stb.html'">
+		<b>Nächste App
+	</button>
+
+  </body>
+  <script>
+  		//Hide HeaderDiv
+	window.onscroll = function() {
+	  if (window.pageYOffset > 120) {
+	  	document.getElementById("topnav").style.top = 0;
+	  	document.getElementById("topnav").style.position = 'fixed'
+	  } else if(window.pageYOffset <120) {
+	  		document.getElementById("topnav").style.top = document.getElementById("headDiv").style.top
+	  		document.getElementById("topnav").style.position = 'absolute'
+	  		document.getElementById("headDiv").style.opacity = 1
+	  }
+	}
+
+	//Responsive Hamburger Menu
+
+	function myFunction() {
+	  var x = document.getElementById("topnav");
+	  if (x.className === "topnav") {
+	    x.className += " responsive";
+	  } else {
+	    x.className = "topnav";
+	  }
+	}
+  </script>
+</html>
