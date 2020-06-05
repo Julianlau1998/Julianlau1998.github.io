@@ -98,6 +98,7 @@ a.aRight{
   background-color: #610B0B;
   color: #ECF0F1;
   font-size: 1.8vw;
+  cursor: pointer;
 }
 
 .topnav .icon {
