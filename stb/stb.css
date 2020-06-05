@@ -265,7 +265,7 @@ a.aRight{
   .screenshot1{
     left: 35vw;
     width: 30vw;
-    top: 65vw;
+    top: 72vw;
   }
 
   .screenshot2{
@@ -290,7 +290,8 @@ a.aRight{
     left: 25vw;
     top: 23vw;
     width:50vw;
-    height: 34.5vw;
+    height: 36.5vw;
+    margin-bottom: 3vw;
     font-size: 3vw;
     padding-top: 3.5vw; 
   }
