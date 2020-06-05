@@ -195,13 +195,24 @@ a.aRight{
   position: absolute;
   width: 98.5vw;
   height: 3vw;
-  top: 70vw;
+  top: 120vw;
   overflow: hidden;
   background-color: #C6ECFF;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   position: absolute;
   color:  black;
+}
+
+.bottomnav b {
+  font-family: monospace;
+  font-size: 1vw;
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 26px;
+  text-decoration: none;
 }
 
 .topnav .icon {

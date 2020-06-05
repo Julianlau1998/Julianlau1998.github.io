@@ -124,6 +124,17 @@ a.aRight{
   color:  black;
 }
 
+.bottomnav b {
+  font-family: monospace;
+  font-size: 1vw;
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 26px;
+  text-decoration: none;
+}
+
 .topnav .icon {
   display: none;
 }
@@ -213,5 +224,6 @@ a.aRight{
     width: 15vw;
     height: 7vw;
     font-size: 2.5vw;
+    cursor: pointer;
   }
 }  
