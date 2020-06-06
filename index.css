@@ -230,25 +230,29 @@ a.aRight{
   }
 
   .bottomnav{
-	top: 275vw;
+    top: 465vw;
+    height: 7vw;
+  }
+  .bottomnav a{
+    font-size: 40vw;
   }
 
   .app1{
     left: 25vw;
     width: 50vw;
-    top: 195vw;
+    top: 220vw;
   }
 
   .app2{
     left: 25vw;
     width: 50vw;
-    top: 75vw;
+    top: 100vw;
   }
 
   .app3{
     left: 25vw;
     width: 50vw;
-    top: 325vw;
+    top: 350vw;
   }
 
   .icon3{
@@ -269,7 +273,7 @@ a.aRight{
   }
 
   .concept{
-    font-size: 4vw;
+    font-size: 6vw;
     top: 28vw;
   }
 
