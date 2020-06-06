@@ -206,7 +206,7 @@ a.aRight{
 
 @media screen and (max-width: 700px) {
   .headDiv{
-    height: 23vw;
+    height: 18vw;
   }
 
   .headDiv.responsive {
@@ -231,14 +231,15 @@ a.aRight{
   }
 
   .headDiv a.icon{
-    margin: 4vw;
+    margin-right: 4vw;
+    margin-top: 2vw;
   } 
 
 
   .headerImage{
-    margin-top: 2vw;
+    margin-top: 0.7vw;
     margin-left: 34vw;
-    width: 32vw;
+    width: 30vw;
   }
 
   .bottomnav{
@@ -277,7 +278,7 @@ a.aRight{
 
   .concept{
     font-size: 6vw;
-    top: 28vw;
+    top: 26vw;
   }
 
 }
