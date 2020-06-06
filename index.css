@@ -223,6 +223,11 @@ a.aRight{
     margin: 2vw;
   }
 
+  .headDiv a.icon{
+    margin: 4vw;
+  } 
+
+
   .headerImage{
     margin-top: 2vw;
     margin-left: 34vw;
