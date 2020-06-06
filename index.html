@@ -82,34 +82,58 @@
 	  }
 	}
 
+	window.onscroll = function() {
+	  if (window.pageYOffset > 120 && window.innerWidth > 700) {
+	  	document.getElementById("headDiv").style.top = "-9vw";
+	  	document.getElementById("headDiv").style.position = 'fixed'
+	  } else if(window.pageYOffset <120) {
+		document.getElementById("headDiv").style.top = "0vw";
+	  		document.getElementById("headDiv").style.top = document.getElementById("headDiv").style.top
+	  		document.getElementById("headDiv").style.position = 'absolute'
+	  		document.getElementById("headDiv").style.opacity = 1
+	  }
+	}
+
 	function changeImage1(){
-		document.getElementById("app1").style.opacity = 0;
-		document.getElementById("icon1").style.opacity = 1;
+		if(window.innerWidth > 700){
+			document.getElementById("app1").style.opacity = 0;
+			document.getElementById("icon1").style.opacity = 1;
+		}
 	}
 
 	function changeImageBack1(){
-		document.getElementById("app1").style.opacity = 1;
-		document.getElementById("icon1").style.opacity = 0;
+		if(window.innerWidth > 700){
+			document.getElementById("app1").style.opacity = 1;
+			document.getElementById("icon1").style.opacity = 0;
+		}
 	}
 
 	function changeImage2(){
-		document.getElementById("app2").style.opacity = 0;
-		document.getElementById("icon2").style.opacity = 1;
+		if(window.innerWidth > 700){
+			document.getElementById("app2").style.opacity = 0;
+			document.getElementById("icon2").style.opacity = 1;
+		}	
 	}
 
 	function changeImageBack2(){
-		document.getElementById("app2").style.opacity = 1;
-		document.getElementById("icon2").style.opacity = 0;
+		if(window.innerWidth > 700){
+			document.getElementById("app2").style.opacity = 1;
+			document.getElementById("icon2").style.opacity = 0;
+		}
 	}
 
 	function changeImage3(){
-		document.getElementById("app3").style.opacity = 0;
-		document.getElementById("icon3").style.opacity = 1;
+		if(window.innerWidth > 700){
+			document.getElementById("app3").style.opacity = 0;
+			document.getElementById("icon3").style.opacity = 1;
+		}	
 	}
 
 	function changeImageBack3(){
-		document.getElementById("app3").style.opacity = 1;
-		document.getElementById("icon3").style.opacity = 0;
+		if(window.innerWidth > 700){
+			document.getElementById("app3").style.opacity = 1;
+			document.getElementById("icon3").style.opacity = 0;
+		}	
 	}
 
 </script>

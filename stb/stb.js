@@ -1,13 +1,22 @@
-    	//Hide HeaderDiv
+		function myFunction() {
+			var x = document.getElementById("headDiv");
+			if (x.className === "headDiv") {
+			x.className += " responsive";
+			} else {
+			x.className = "headDiv";
+			}
+		}
+
 		window.onscroll = function() {
-		  if (window.pageYOffset > 120) {
-		  	document.getElementById("topnav").style.top = 0;
-		  	document.getElementById("topnav").style.position = 'fixed'
-		  } else if(window.pageYOffset <120) {
-		  		document.getElementById("topnav").style.top = document.getElementById("headDiv").style.top
-		  		document.getElementById("topnav").style.position = 'absolute'
-		  		document.getElementById("headDiv").style.opacity = 1
-		  }
+			if (window.pageYOffset > 120 && window.innerWidth > 700) {
+				document.getElementById("headDiv").style.top = "-9vw";
+				document.getElementById("headDiv").style.position = 'fixed'
+			} else if(window.pageYOffset <120) {
+			document.getElementById("headDiv").style.top = "0vw";
+					document.getElementById("headDiv").style.top = document.getElementById("headDiv").style.top
+					document.getElementById("headDiv").style.position = 'absolute'
+					document.getElementById("headDiv").style.opacity = 1
+			}
 		}
 
 		//Responsive Hamburger Menu

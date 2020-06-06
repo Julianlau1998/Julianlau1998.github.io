@@ -202,6 +202,10 @@ a.aRight{
 }
 
 @media screen and (max-width: 700px) {
+  .headDiv{
+    height: 23vw;
+  }
+  
   .headDiv.responsive {
     position: relative;
     height: 75vw;
@@ -271,10 +275,6 @@ a.aRight{
     height: 8.5vw;
     left: 22.5vw;
     top: -3.2vw;
-  }
-
-  .headDiv{
-    height: 23vw;
   }
 
   .concept{
