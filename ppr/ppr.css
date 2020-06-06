@@ -61,7 +61,16 @@ a.aRight{
 .screenshot1{
   position: absolute;
   top: 17vw;
-  left: 20vw;
+  left: 8.75vw;
+  width: 15vw;
+  border-radius: 12px;
+  z-index: -1;
+}
+
+.screenshot2{
+  position: absolute;
+  top: 17vw;
+  left: 31.25vw;
   width: 15vw;
   border-radius: 12px;
   z-index: -1;
