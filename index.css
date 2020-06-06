@@ -219,40 +219,36 @@ a.aRight{
   }
 
   .headDiv a{
-    font-size: 7vw;
-    margin:1vw;
+    font-size: 12vw;
+    margin: 2vw;
   }
 
   .headerImage{
     margin-top: 2vw;
-    margin-left: 42.5vw;
-    width:15vw;
+    margin-left: 34vw;
+    width: 32vw;
   }
 
   .bottomnav{
 	top: 275vw;
   }
 
-  .concept{
-      font-size: 100vh;
-  }
-
   .app1{
-    left: 35vw;
-    width: 30vw;
-    top: 135vw;
+    left: 25vw;
+    width: 50vw;
+    top: 195vw;
   }
 
   .app2{
-    left: 35vw;
-    width: 30vw;
-    top: 65vw;
+    left: 25vw;
+    width: 50vw;
+    top: 75vw;
   }
 
   .app3{
-    left: 35vw;
-    width: 30vw;
-    top: 205vw;
+    left: 25vw;
+    width: 50vw;
+    top: 325vw;
   }
 
   .icon3{
@@ -269,12 +265,12 @@ a.aRight{
   }
 
   .headDiv{
-    height: 12vw;
+    height: 23vw;
   }
 
   .concept{
     font-size: 4vw;
-    top: 21vw;
+    top: 28vw;
   }
 
 }
