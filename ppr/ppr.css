@@ -179,7 +179,7 @@ a.aRight{
   .headDiv.responsive a.icon {
     position: absolute;
     right: 0;
-    top: 0;
+    top: 22vw;
   }
   .headDiv.responsive a {
     float: none;
@@ -194,7 +194,7 @@ a.aRight{
 
   .headDiv a.icon{
     margin-right: 2vw;
-    margin-top: 2vw;
+    margin-top: -17vw;
   } 
   .headerImage{
     margin-top: 1vw;

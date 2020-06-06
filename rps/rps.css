@@ -162,15 +162,16 @@ a.aRight{
     height: 75vw;
   }
 
-  .headDiv.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
   .headDiv.responsive a {
     float: none;
     display: block;
     text-align: center;
+  }
+
+  .headDiv.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 22vw;
   }
 
   .headDiv a{
@@ -180,8 +181,8 @@ a.aRight{
 
   .headDiv a.icon{
     margin-right: 2vw;
-    margin-top: 2vw;
-  } 
+    margin-top: -17vw;
+  }
 
   .headerImage{
     margin-top: 1vw;
