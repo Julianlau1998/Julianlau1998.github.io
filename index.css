@@ -204,7 +204,7 @@ a.aRight{
 @media screen and (max-width: 700px) {
   .headDiv.responsive {
     position: relative;
-    height: 45vw;
+    height: 75vw;
   }
 
   .headDiv.responsive a.icon {
@@ -219,7 +219,7 @@ a.aRight{
   }
 
   .headDiv a{
-    font-size: 12vw;
+    font-size: 11vw;
     margin: 2vw;
   }
 
