@@ -19,16 +19,6 @@
 			}
 		}
 
-		//Responsive Hamburger Menu
-		function myFunction() {
-		  var x = document.getElementById("topnav");
-		  if (x.className === "topnav") {
-		    x.className += " responsive";
-		  } else {
-		    x.className = "topnav";
-		  }
-		}
-
 		// arrow animation
 		var arrow_clicked = false;
 		var arrow = document.getElementById("arrow") 
