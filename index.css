@@ -103,7 +103,7 @@ a.aRight{
   left: 20vw;
   width: 15vw;
   border-radius: 12px;
-  z-index: -1;
+  z-index: 1;
 }
 .app2{
   position: absolute;
@@ -111,7 +111,7 @@ a.aRight{
   left: 42.5vw;
   width: 15vw;
   border-radius: 12px;
-  z-index: -1;
+  z-index: 1;
 }
 .app3{
   position: absolute;
@@ -119,11 +119,12 @@ a.aRight{
   left: 65vw;
   width: 15vw;
   border-radius: 12px;
-  z-index: -1;
+  z-index: 1;
 }
 
 .icon1{
   opacity: 0;
+  z-index: 0;
   position: absolute;
   top: 7.5vw;
   left: 0vw;
@@ -132,6 +133,7 @@ a.aRight{
 
 .icon2{
   opacity: 0;
+  z-index: 0;
   position: absolute;
   top: 7.5vw;
   left: 0vw;
@@ -140,6 +142,7 @@ a.aRight{
 
 .icon3{
   opacity: 0;
+  z-index: 0;
   position: absolute;
   top: 7.5vw;
   left: 22.5vw;
@@ -205,7 +208,7 @@ a.aRight{
   .headDiv{
     height: 23vw;
   }
-  
+
   .headDiv.responsive {
     position: relative;
     height: 75vw;
@@ -262,11 +265,6 @@ a.aRight{
     left: 25vw;
     width: 50vw;
     top: 350vw;
-  }
-
-  .icon3{
-    top: 160vw;
-    left: 0vw;
   }
 
   .header{
