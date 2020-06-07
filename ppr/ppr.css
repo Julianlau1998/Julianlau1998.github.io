@@ -237,5 +237,6 @@ a.aRight{
     font-size: 4vw;
     font-family: arial;
     cursor: pointer;
+    text-align: center;
   }
 }
