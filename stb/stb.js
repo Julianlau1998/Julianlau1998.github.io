@@ -13,11 +13,12 @@
 				document.getElementById("headDiv").style.position = 'fixed'
 				this.document.getElementById("googlePlay").style.top= '-0.4vw';
 				this.document.getElementById("googlePlay").style.position= 'fixed';
-			} else if(window.pageYOffset <120) {
-			document.getElementById("headDiv").style.top = "0vw";
-					document.getElementById("headDiv").style.top = document.getElementById("headDiv").style.top
-					document.getElementById("headDiv").style.position = 'absolute'
-					document.getElementById("headDiv").style.opacity = 1
+			} 
+			else if(window.pageYOffset <120) {
+				document.getElementById("headDiv").style.top = "0vw";
+				document.getElementById("headDiv").style.top = document.getElementById("headDiv").style.top
+				document.getElementById("headDiv").style.position = 'absolute'
+				document.getElementById("headDiv").style.opacity = 1
 			}
 		}
 

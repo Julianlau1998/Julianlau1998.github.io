@@ -42,7 +42,7 @@ hr{
   color: black;
   border-radius: 20px; 
   margin-top: 0.5vw;
-  margin-right: 1vw;
+  margin-right: -1vw;
 }
 
 .headDiv a:hover {
@@ -86,6 +86,21 @@ a.aRight{
   z-index: -1;
   position: absolute;
   top: 15.5vw;
+  left: 15vw;
+  width: 70vw;
+  font-size: 1.8vw;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid black; 
+  border-bottom: 1px solid black;
+  color: black;
+  font-family: Arial;
+}
+
+.conceptAbout{
+  z-index: -1;
+  position: absolute;
+  top: 25.5vw;
   left: 15vw;
   width: 70vw;
   font-size: 1.8vw;
@@ -279,6 +294,10 @@ a.aRight{
   .concept{
     font-size: 6vw;
     top: 22.5vw;
+  }
+  .conceptAbout{
+    font-size: 6vw;
+    top: 82.5vw;
   }
 
 }

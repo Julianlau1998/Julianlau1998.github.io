@@ -248,6 +248,10 @@ a.aRight{
     height: 18vw;
   }
 
+  .googlePlay{
+    margin-top: 2vw;
+  }
+
   .headDiv.responsive {
     position: relative;
     height: 75vw;
