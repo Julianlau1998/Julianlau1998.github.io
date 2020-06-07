@@ -199,20 +199,20 @@ a.aRight{
   }
 
   .bottomnav{
-    top: 240vw;
+    top: 325vw;
     height:7vw;
   }
 
   .screenshot1{
-    left: 35vw;
-    width: 30vw;
+    left: 25vw;
+    width: 50vw;
     top: 80vw;
   }
 
   .screenshot2{
-    left: 35vw;
-    width: 30vw;
-    top: 150vw;
+    left: 25vw;
+    width: 50vw;
+    top: 190vw;
   }
 
   .context1{
@@ -225,7 +225,7 @@ a.aRight{
 
   .nextApp{
     left: 39vw;
-    top: 220vw;
+    top: 305vw;
     margin-bottom: 2vw;
     width: 22vw;
     height: 12vw;

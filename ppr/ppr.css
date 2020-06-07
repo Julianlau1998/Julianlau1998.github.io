@@ -204,20 +204,20 @@ a.aRight{
   }
 
   .bottomnav{
-    top: 230vw;
-    height: 6vw;
+    top: 325vw;
+    height:7vw;
   }
 
   .screenshot1{
-    left: 35vw;
-    width: 30vw;
-    top: 70vw;
+    left: 25vw;
+    width: 50vw;
+    top: 75vw;
   }
 
   .screenshot2{
-    left: 35vw;
-    width: 30vw;
-    top: 140vw;
+    left: 25vw;
+    width: 50vw;
+    top: 190vw;
   }
 
   .context1{
@@ -230,11 +230,12 @@ a.aRight{
 
   .nextApp{
     left: 39vw;
-    top: 210vw;
+    top: 305vw;
     margin-bottom: 2vw;
     width: 22vw;
     height: 12vw;
     font-size: 4vw;
     font-family: arial;
-  }  
+    cursor: pointer;
+  }
 }
