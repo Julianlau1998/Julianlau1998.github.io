@@ -24,10 +24,18 @@ hr{
 
 .headerImage{
   width: 7vw;
-  margin-left: 47.3vw;
+  margin-left: 0vw;
   margin-top: 1vw;
+  cursor: pointer;
 }
 
+.homeButton{
+  background: none;
+  border: none;
+  outline: none;
+  width: 20vw;
+  margin-left: 41vw;
+}
 
 .headDiv a {
   font-family: monospace;
@@ -96,7 +104,7 @@ a.aRight{
 
 .nextApp{
   position: absolute;
-  font-family: a;
+  font-family: arial;
   width: 9vw;
   height: 5vw;
   top: 41vw;
@@ -186,24 +194,25 @@ a.aRight{
 
   .headerImage{
     margin-top: 1vw;
-    margin-left: 42vw;
+    margin-left: 0vw;
     width: 16vw;
   }
 
   .bottomnav{
-    top: 215vw;
+    top: 240vw;
+    height:7vw;
   }
 
   .screenshot1{
     left: 35vw;
     width: 30vw;
-    top: 55vw;
+    top: 80vw;
   }
 
   .screenshot2{
     left: 35vw;
     width: 30vw;
-    top: 125vw;
+    top: 150vw;
   }
 
   .context1{
@@ -215,12 +224,13 @@ a.aRight{
   }
 
   .nextApp{
-    left: 42.5vw;
-    top: 190vw;
+    left: 39vw;
+    top: 220vw;
     margin-bottom: 2vw;
-    width: 15vw;
-    height: 7vw;
-    font-size: 2.5vw;
+    width: 22vw;
+    height: 12vw;
+    font-size: 4vw;
+    font-family: arial;
     cursor: pointer;
   }
 }  

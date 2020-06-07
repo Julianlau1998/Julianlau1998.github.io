@@ -144,6 +144,14 @@ a.aRight{
   color: #ECF0F1;
   font-size: 1.8vw;
   cursor: pointer;
+  font-family: arial;
+}
+
+.googlePlay{
+  width: 15vw;
+  position: fixed;
+  left: 2vw;
+  top: -0.4vw;
 }
 
 .arrow { 

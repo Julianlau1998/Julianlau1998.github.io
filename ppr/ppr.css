@@ -108,6 +108,7 @@ a.aRight{
   color: #ECF0F1;
   font-size: 1.8vw;
   cursor: pointer;
+  font-family: arial;
 }
 
 .bottomnav {
@@ -203,19 +204,20 @@ a.aRight{
   }
 
   .bottomnav{
-    top: 215vw;
+    top: 230vw;
+    height: 6vw;
   }
 
   .screenshot1{
     left: 35vw;
     width: 30vw;
-    top: 55vw;
+    top: 70vw;
   }
 
   .screenshot2{
     left: 35vw;
     width: 30vw;
-    top: 125vw;
+    top: 140vw;
   }
 
   .context1{
@@ -227,11 +229,11 @@ a.aRight{
   }
 
   .nextApp{
-    left: 42.5vw;
-    top: 200vw;
+    left: 39vw;
+    top: 210vw;
     margin-bottom: 2vw;
-    width: 15vw;
-    height: 7vw;
-    font-size: 2.5vw;
-  }
+    width: 22vw;
+    height: 12vw;
+    font-size: 4vw;
+    font-family: arial;
 }  
