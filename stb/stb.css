@@ -94,6 +94,7 @@ a.aRight{
 }
 
 .context1{
+  font-family: arial;
   width: 30vw;
   height: 23.7vw;
   background-color: #C6ECFF;
@@ -111,6 +112,7 @@ a.aRight{
 }
 
 .context2{
+  font-family: arial;
   width: 30vw;
   height: 19.5vw;
   background-color: #C6ECFF;
@@ -272,58 +274,60 @@ a.aRight{
   }
 
   .bottomnav{
-    top: 400vw;
+    height: 7vw;
+    top: 640vw;
   }
 
   .screenshot1{
-    left: 35vw;
-    width: 30vw;
-    top: 72vw;
+    left: 25vw;
+    width: 50vw;
+    top: 115vw;
   }
 
   .screenshot2{
-    left: 35vw;
-    width: 30vw;
-    top: 135vw;
+    left: 25vw;
+    width: 50vw;
+    top: 220vw;
   }
 
   .screenshot3{
-    left: 35vw;
-    width: 30vw;
-    top: 250vw;
+    left: 25vw;
+    width: 50vw;
+    top: 400vw;
   }
 
   .screenshot4{
-    left: 35vw;
-    width: 30vw;
-    top: 320vw;
+    left: 25vw;
+    width: 50vw;
+    top: 505vw;
   }
 
   .context1{
-    left: 25vw;
+    left: 20vw;
     top: 27vw;
-    width:50vw;
-    height: 36.5vw;
+    width: 60vw;
+    height: 77vw;
     margin-bottom: 3vw;
-    font-size: 3vw;
+    font-size: 5vw;
     padding-top: 3.5vw; 
   }
 
   .context2{
-    left: 25vw;
-    top: 205vw;
-    width:50vw;
-    height: 30vw;
-    font-size: 3vw;
+    left: 20vw;
+    top: 325vw;
+    width: 60vw;
+    height: 60vw;
+    font-size: 5vw;
   }
 
   .nextApp{
-    left: 42.5vw;
-    top: 390vw;
+    left: 39vw;
+    top: 615vw;
     margin-bottom: 2vw;
-    width: 15vw;
-    height: 7vw;
-    font-size: 2.5vw;
+    width: 22vw;
+    height: 12vw;
+    font-size: 4vw;
+    font-family: arial;
   }
 
   .line{

@@ -80,7 +80,7 @@ a.aRight{
   width: 30vw;
   height: 14.7vw;
   background-color: #C6ECFF;
-  font-family: times;
+  font-family: arial;
   position: absolute;
   left: 58vw;
   top: 17vw;
@@ -207,11 +207,11 @@ a.aRight{
   }
 
   .context1{
-    left: 25vw;
+    left: 20vw;
     top: 25vw;
-    width:50vw;
-    height: 20vw;
-    font-size: 3vw;
+    width: 60vw;
+    height: 45vw;
+    font-size: 5vw;
   }
 
   .nextApp{
