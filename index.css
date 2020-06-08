@@ -112,6 +112,21 @@ a.aRight{
   font-family: Arial;
 }
 
+.conceptAbout2{
+  z-index: -1;
+  position: absolute;
+  top: 39.5vw;
+  left: 15vw;
+  width: 70vw;
+  font-size: 1.8vw;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid black; 
+  border-bottom: 1px solid black;
+  color: black;
+  font-family: Arial;
+}
+
 .app1{
   position: absolute;
   top: 33vw;
@@ -268,7 +283,7 @@ a.aRight{
   .app1{
     left: 25vw;
     width: 50vw;
-    top: 215vw;
+    top: 220vw;
   }
 
   .app2{
@@ -280,7 +295,7 @@ a.aRight{
   .app3{
     left: 25vw;
     width: 50vw;
-    top: 330vw;
+    top: 335vw;
   }
 
   .header{
@@ -298,6 +313,10 @@ a.aRight{
   .conceptAbout{
     font-size: 6vw;
     top: 82.5vw;
+  }
+  .conceptAbout2{
+    font-size: 6vw;
+    top: 155.5vw;
   }
 
 }
