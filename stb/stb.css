@@ -95,6 +95,7 @@ a.aRight{
 
 .context1{
   font-family: arial;
+  font-size: 1.95vw;
   width: 30vw;
   height: 23.7vw;
   background-color: #C6ECFF;
@@ -113,13 +114,14 @@ a.aRight{
 
 .context2{
   font-family: arial;
+  font-size: 1.95vw;
   width: 30vw;
-  height: 19.5vw;
+  height: 21.7vw;
   background-color: #C6ECFF;
   position: absolute;
   left: 58vw;
   top: 54vw;
-  padding-top: 3.2vw;
+  padding-top: 3vw;
   padding-left: 1vw;
   padding-right: 1vw; 
   border-radius: 20px;
@@ -135,7 +137,7 @@ a.aRight{
   font-family: a;
   width: 9vw;
   height: 5vw;
-  top: 80vw;
+  top: 82.5vw;
   left: 70vw;
   border-radius: 15px;
   box-shadow: 1px 1px 1px #424242;
