@@ -1,6 +1,6 @@
 body{
 	margin: 0;
-	background: #FFFFF0;
+	background: #ffffff;
 	text-align: center;
 	font-size: 2vw;
 }
@@ -13,10 +13,10 @@ hr{
   top: 0;
   height: 14vw;
   width: 100%;
-  background-color: #C6ECFF;
+  background-color: #38444e;
   opacity: 1;
   text-align: left;
-  color: rgb(0, 0, 0);
+  color: rgb(175, 175, 175);
   font-size: 5vw;
   font-family: Arial, Helvetica, sans-serif;
   box-shadow: 3px 3px 3px #424242;
@@ -48,19 +48,18 @@ hr{
   font-size: 2.15vw;
   float: right;
   display: block;
-  color: #777777;
+  color: rgb(218, 218, 218);
   padding: 0.6vw 2vw;
   text-decoration: none;
   z-index: 1;
-  color: black;
   border-radius: 20px; 
   margin-top: 0.5vw;
   margin-right: -1.5vw;
 }
 
 .headDiv a:hover {
-  background-color: #17315F;
-  color: white;
+  background-color: #8795ad;
+  color: rgb(44, 44, 44);
   border-radius: 20px;
 }
 
@@ -93,7 +92,7 @@ a.aRight{
 .context1{
   width: 30vw;
   height: 13.5vw;
-  background-color: #C6ECFF;
+  background-color: #f0f0f0;
   font-family: arial;
   position: absolute;
   left: 58vw;
@@ -102,9 +101,7 @@ a.aRight{
   padding-left: 1vw;
   padding-right: 1vw; 
   border-radius: 20px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  box-shadow: 3px 5px 5px #424242;;
+  box-shadow: 0px 0px 30px 10px #bbbbbb;
   z-index: -1;
 }
 
@@ -118,11 +115,16 @@ a.aRight{
   border-radius: 15px;
   box-shadow: 1px 1px 1px #424242;
   outline: none;
-  background-color: #610B0B;
+  background-color: #38444e;
   color: #ECF0F1;
   font-size: 1.8vw;
   cursor: pointer;
   font-family: arial;
+}
+
+.nextApp:hover{
+  background-color: rgb(236, 236, 236);
+  color: #38444e;
 }
 
 .bottomnav {
@@ -132,7 +134,7 @@ a.aRight{
   height: 3vw;
   top: 60vw;
   overflow: hidden;
-  background-color: #C6ECFF;
+  background-color: #38444e;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   position: absolute;
@@ -144,7 +146,7 @@ a.aRight{
   font-size: 1vw;
   float: right;
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 26px;
   text-decoration: none;
@@ -186,8 +188,15 @@ a.aRight{
     height: 18vw;
   }
 
+  .bottomnav b {
+    font-size: 2.5vw;
+    margin-top: -1vw;
+  }
+
   .googlePlay{
-    margin-top: 2vw;
+    margin-top: 1vw;
+    margin-left: -2vw;
+    width: 20vw;
   }
 
   .headDiv.responsive {

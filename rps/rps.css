@@ -13,10 +13,10 @@ hr{
   top: 0;
   height: 14vw;
   width: 100%;
-  background-color: #C6ECFF;
+  background-color: #38444e; background-color: #38444e;
   opacity: 1;
   text-align: left;
-  color: rgb(0, 0, 0);
+  color: rgb(175, 175, 175);
   font-size: 5vw;
   font-family: Arial, Helvetica, sans-serif;
   box-shadow: 3px 3px 3px #424242;
@@ -42,19 +42,18 @@ hr{
   font-size: 2.15vw;
   float: right;
   display: block;
-  color: #777777;
+  color: rgb(218, 218, 218);
   padding: 0.6vw 2vw;
   text-decoration: none;
   z-index: 1;
-  color: black;
   border-radius: 20px; 
   margin-top: 0.5vw;
-  margin-right: 1vw;
+  margin-right: -1.5vw;
 }
 
 .headDiv a:hover {
-  background-color: #17315F;
-  color: white;
+  background-color: #8795ad;
+  color: rgb(44, 44, 44);
   border-radius: 20px;
 }
 
@@ -87,7 +86,7 @@ a.aRight{
 .context1{
   width: 30vw;
   height: 14.7vw;
-  background-color: #C6ECFF;
+  background-color: #F0F0F0;
   font-family: arial;
   position: absolute;
   left: 58vw;
@@ -98,7 +97,7 @@ a.aRight{
   border-radius: 20px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  box-shadow: 3px 5px 5px #424242;;
+  box-shadow: 1px 1px 10px 5px #d1d1d1;
   z-index: -1;
 }
 
@@ -121,11 +120,11 @@ a.aRight{
 .bottomnav {
   z-index: 100;
   position: absolute;
-  width: 100%;
+  width: 98.5vw;
   height: 3vw;
   top: 60vw;
   overflow: hidden;
-  background-color: #C6ECFF;
+  background-color: #38444e;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   position: absolute;
@@ -137,7 +136,7 @@ a.aRight{
   font-size: 1vw;
   float: right;
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 26px;
   text-decoration: none;
