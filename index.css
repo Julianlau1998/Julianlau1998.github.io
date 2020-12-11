@@ -296,5 +296,9 @@ a.aRight{
     font-size: 6vw;
     top: 155.5vw;
   }
+  .bottomnav b {
+    font-size: 0.7rem;
+    padding: 9px 26px;
+  }
 
 }
